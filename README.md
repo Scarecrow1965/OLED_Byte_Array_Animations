@@ -1,3 +1,7 @@
 # OLED_Byte_Array_Animations
  
-Displaying byte Array animations on an SSD1306 OLED from an ESP32 chip 
+This is a new repository for a small program
+displaying byte array animations installed
+on a ESP32 using a SSD1306 OLED Display.
+
+I am using PlatformIO.
