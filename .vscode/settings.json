@@ -1,0 +1,4 @@
+{
+    "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+    "cmake.sourceDirectory": "J:/Arduino_ESP32_Programming/PlatformIO/OLED_Byte_Array_Animation/src"
+}
