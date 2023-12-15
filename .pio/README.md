@@ -1,0 +1,1 @@
+These folders contain the platformIO files it needs to compile and upload to the ESP 32. There are files and folders within this area that did not get uploaded but I assume that if you are using the VSCode PlatformIO extension that it should populate it with the required files and folders to make allow compiling and uploading unto your ESP32
