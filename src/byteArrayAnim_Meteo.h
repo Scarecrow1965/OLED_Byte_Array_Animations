@@ -59,18 +59,18 @@ extern Adafruit_SSD1306 display;
 
 const uint8_t totalarrays_Meteo = 11; // ensure this is the same as the number of arrays in the WeatherArray below
 
-Frame MeteoArray[11]{
-    {"/cloudyWeather.bin", 28, "Cloudy Weather"},
-    {"/lightSnowWeather.bin", 28, "Light Snow Weather"},
-    {"/lightningWeather.bin", 28, "Lightning Weather"},
-    {"/lightningboltWeather.bin", 28, "Lightning Bolt Weather"},
-    {"/rainyWeather.bin", 28, "Rainy Weather"},
-    {"/snowStormWeather.bin", 28, "Snowstorm Weather"},
-    {"/stormyWeather.bin", 28, "Stormy Weather"},
-    {"/sunWeather.bin", 28, "Sun Weather"},
-    {"/temperatureWeather.bin", 28, "Temperature Weather"},
-    {"/torrentialRainWeather.bin", 28, "Torrential Rain Weather"},
-    {"/windyWeather.bin", 28, "Windy Weather"},
+Frame MeteoArray[11] {
+    {"/by_cldWx.bin", 28, "Cloudy Weather"},
+    {"/by_lSnWx.bin", 28, "Light Snow Weather"},
+    {"/by_lngWx.bin", 28, "Lightning Weather"},
+    {"/by_bltWx.bin", 28, "Lightning Bolt Weather"},
+    {"/by_rngWx.bin", 28, "Rainy Weather"},
+    {"/by_snoWx.bin", 28, "Snowstorm Weather"},
+    {"/by_stoWx.bin", 28, "Stormy Weather"},
+    {"/by_sunWx.bin", 28, "Sun Weather"},
+    {"/by_tmpWx.bin", 28, "Temperature Weather"},
+    {"/by_tRnWx.bin", 28, "Torrential Rain Weather"},
+    {"/by_wndWx.bin", 28, "Windy Weather"},
 };
 
 void byteArrayMeteo_Anim(void)

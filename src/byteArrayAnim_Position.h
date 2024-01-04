@@ -59,12 +59,12 @@ extern Adafruit_SSD1306 display;
 
 const uint8_t totalarrays_Position = 5; // ensure this amount is ther same as the number of arrays in the PositionArray below
 
-Frame PositionArray[5]{
-    {"/uninstallingUpdates.bin", 28, "Uninstalling Updates"},
-    {"/installingUpdates.bin", 28, "Installing Updates"},
-    {"/upload.bin", 28, "Upload"},
-    {"/download.bin", 28, "Download"},
-    {"/downArrow.bin", 28, "Down Arrow"},
+Frame PositionArray[5] {
+    {"/by_unUpd.bin", 28, "Uninstalling Updates"},
+    {"/by_insUpd.bin", 28, "Installing Updates"},
+    {"/by_upld.bin", 28, "Upload"},
+    {"/by_dwnld.bin", 28, "Download"},
+    {"/by_dwnAr.bin", 28, "Down Arrow"},
 };
 
 void byteArrayPosition_Anim(void)

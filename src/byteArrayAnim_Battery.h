@@ -59,11 +59,11 @@ extern Adafruit_SSD1306 display;
 
 static const uint8_t totalarrays_Battery = 4; // ensure this is the same as the number of arrays in the BatteryArray below
 
-Frame BatteryArray[4]{
-    {"/batteryLevel.bin", 28, "Battery Level"},
-    {"/chargedBattery.bin", 28, "Charged Battery"},
-    {"/chargingBattery.bin", 28, "Charging Battery"},
-    {"/lowBattery.bin", 28, "Low Battery"},
+Frame BatteryArray[4] {
+    {"/by_batLl.bin", 28, "Battery Level"},
+    {"/by_chBat.bin", 28, "Charged Battery"},
+    {"/by_cgBat.bin", 28, "Charging Battery"},
+    {"/by_lwBat.bin", 28, "Low Battery"},
 };
 
 void byteArrayBattery_Anim(void)

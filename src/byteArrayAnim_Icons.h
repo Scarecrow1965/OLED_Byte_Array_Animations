@@ -59,14 +59,14 @@ extern Adafruit_SSD1306 display;
 
 const uint8_t totalarrays_Icons = 7; // ensure this is the same as the number of arrays in the IconsArray array
 
-Frame IconsArray[7]{
-    {"/heartbeat.bin", 28, "Heartbeat"},
-    {"/aircraft.bin", 28, "Aircraft"},
-    {"/event.bin", 28, "Event"},
-    {"/plot.bin", 28, "Plot"},
-    {"/toggle.bin", 28, "Toggle"},
-    {"/openLetter.bin", 28, "Open Letter"},
-    {"/phoneRinging.bin", 28, "Phone Ringing"},
+Frame IconsArray[7] {
+    {"/by_hrtbt.bin", 28, "Heartbeat"},
+    {"/by_acft.bin", 28, "Aircraft"},
+    {"/by_event.bin", 28, "Event"},
+    {"/by_plot.bin", 28, "Plot"},
+    {"/by_toggl.bin", 28, "Toggle"},
+    {"/by_opLet.bin", 28, "Open Letter"},
+    {"/by_phrng.bin", 28, "Phone Ringing"},
 };
 
 void byteArrayIcons_Anim(void)

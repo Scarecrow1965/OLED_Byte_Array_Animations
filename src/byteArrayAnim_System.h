@@ -61,18 +61,18 @@ extern Adafruit_SSD1306 display;
 static const uint8_t totalarrays_System = 12; // ensure this is the same as the number of arrays in the SyustemArray array
 
 Frame SystemArray[12]{
-    {"/bell.bin", 28, "Bell"},
-    {"/checkmarkOK.bin", 28, "Checkmark OK"},
-    {"/clockspin.bin", 28, "Spinning Clock"},
-    {"/globe.bin", 28, "Globe"},
-    {"/home.bin", 28, "Home"},
-    {"/hourglass.bin", 28, "Hourglass"},
-    {"/noConnection.bin", 28, "No Connection"},
-    {"/sound.bin", 28, "Sound"},
-    {"/wifisearch.bin", 28, "WIFI Search"},
-    {"/gear.bin", 28, "Gear"},
-    {"/gears.bin", 28, "Gears"},
-    {"/settings.bin", 28, "Settings"},
+    {"/by_bell.bin", 28, "Bell"},
+    {"/by_chkOK.bin", 28, "Checkmark OK"},
+    {"/by_clksp.bin", 28, "Spinning Clock"},
+    {"/by_globe.bin", 28, "Globe"},
+    {"/by_home.bin", 28, "Home"},
+    {"/by_hrgl.bin", 28, "Hourglass"},
+    {"/by_noCon.bin", 28, "No Connection"},
+    {"/by_snd.bin", 28, "Sound"},
+    {"/by_wifish.bin", 28, "WIFI Search"},
+    {"/by_gear.bin", 28, "Gear"},
+    {"/by_gears.bin", 28, "Gears"},
+    {"/by_setng.bin", 28, "Settings"},
 };
 
 void byteArraySystem_Anim(void)
