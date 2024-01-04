@@ -60,7 +60,7 @@ extern Adafruit_SSD1306 display;
 static const uint8_t totalarrays_Battery = 4; // ensure this is the same as the number of arrays in the BatteryArray below
 
 Frame BatteryArray[4] {
-    {"/by_batLl.bin", 28, "Battery Level"},
+    {"/by_batLv.bin", 28, "Battery Level"},
     {"/by_chBat.bin", 28, "Charged Battery"},
     {"/by_cgBat.bin", 28, "Charging Battery"},
     {"/by_lwBat.bin", 28, "Low Battery"},
@@ -68,7 +68,7 @@ Frame BatteryArray[4] {
 
 void byteArrayBattery_Anim(void)
 {
-    Serial.println("Starting Meteo byte Array loop");
+    Serial.println("Starting Battery byte Array loop");
 
     for (uint8_t i = 0; i < totalarrays_Battery; i++)
     {

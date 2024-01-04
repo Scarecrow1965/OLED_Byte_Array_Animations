@@ -71,7 +71,7 @@ Frame IconsArray[7] {
 
 void byteArrayIcons_Anim(void)
 {
-    Serial.println("Starting Meteo byte Array loop");
+    Serial.println("Starting Icons byte Array loop");
 
     for (uint8_t i = 0; i < totalarrays_Icons; i++)
     {

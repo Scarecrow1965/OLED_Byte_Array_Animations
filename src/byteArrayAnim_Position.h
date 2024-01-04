@@ -69,7 +69,7 @@ Frame PositionArray[5] {
 
 void byteArrayPosition_Anim(void)
 {
-    Serial.println("Starting Meteo byte Array loop");
+    Serial.println("Starting Position byte Array loop");
 
     for (uint8_t i = 0; i < totalarrays_Position; i++)
     {
