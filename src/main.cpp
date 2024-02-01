@@ -35,8 +35,8 @@ bool bLED = LOW;
 
 // This will enable for the OLED screen to display information
 // definition of OLED display SSD1306 for Arduino Mega SCA & SDL
-#define OLED_CLOCK 17 // SCA pin on Display = SCL on ESP32
-#define OLED_DATA 20  // SDL pin on display = SDA on ESP32
+#define OLED_CLOCK 22 // SCA pin on Display = pin 17 (I2C_SCL) on ESP32 = GPIO 22
+#define OLED_DATA 21  // SDL pin on display = pin 20 (I2C_SDA) on ESP32 = GPIO 21
 // U8G2 SSD1306 Driver here to run OLED Screen
 // built constructor for the OLED function
 U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, OLED_CLOCK, OLED_DATA, U8X8_PIN_NONE); // This works but according to the function, it shouldn't
@@ -53,10 +53,10 @@ U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, OLED_CLOCK, OLED_DATA, U8X8_PI
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RST_PIN);
 
 // adding the SD card reader
-#define SCK 17
-#define MISO 19
-#define MOSI 23
-#define CS 5
+#define SCK 18  // GPIO 18 = VSPI_CLK
+#define MISO 19 // GPIO 19 = VSPI_MISO
+#define MOSI 23 // GPIO 23 = VSPI_MOSI
+#define CS 5    // GPIO 5 = VSPI_CS
 
 #include <FS.h>
 #include <SD.h>
